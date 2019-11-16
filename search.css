@@ -1,0 +1,191 @@
+body {
+	margin: 0; /* || SO THE NAVBAR REACHES THE VERY TOP OF THE PAGE */
+}
+
+/* || TOP NAV BAR */
+
+	/* || REFERENCE CSS CODE FOR THE TOP NAVBAR FROM W3SCHOOLS.COM */
+
+	/*Add a black background color to the top navigation
+	.topnav {
+	    background-color: #333;
+	    overflow: hidden;
+	}
+
+	Style the links inside the navigation bar
+	.topnav a {
+	  float: left;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	Right-aligned section inside the top navigation
+	.topnav-right {
+	  float: right;
+	}*/
+
+.topnavbar {
+	overflow: hidden;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.topnavlink {
+	text-decoration: none;
+	float: left;
+	margin: 22px 10px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #4a58d9;
+}
+
+.topright {
+	float: right;
+}
+
+/* || ICONS IN TOP NAVBAR */
+
+.squares {
+	color: red;
+	font-size: 18px;
+	margin: 20px 5px 20px 15px
+}
+
+.user {
+	color: red;
+	font-size: 30px;
+	margin: 15px 15px 20px 15px;
+}
+
+/* || LOGO, SEARCH BAR AND BUTTONS */
+
+#main {
+	text-align: center;
+	margin: 90px auto;
+}
+
+/* || LOGO STYLING AND COLORING */
+
+.logo {
+	margin: 50px 0px 0px 0px;
+	font-size: 80px;
+	font-family: Arial;
+}
+
+.l1 {
+	color: #ff0303;
+}
+
+.l2 {
+	color: #ff6803;
+}
+
+.l3 {
+	color: #ffab03;
+}
+
+.l4 {
+	color: #ffdd03;
+}
+
+.l5 {
+	color: #89ff03;
+}
+
+.l6 {
+	color: #03ff24;
+}
+
+.l7 {
+	color: #03ffd5;
+}
+
+.l8 {
+	color: #03a2ff;
+}
+
+.l9 {
+	color: #031cff;
+}
+
+/* || SEARCH BAR STYLING */
+.bar {
+	width: 575px;
+	height: 40px;
+	border-radius: 27px;  /* || GIVES ROUNDED CORNERS */
+	margin-bottom: 10px;
+	border: none;
+	box-shadow: 0px 0px 5px #4a58d9;
+	text-indent: 50px;
+}
+
+.searchicon {
+	position: absolute;  /* || USED TO PUT ICON IN SEARCH BAR */
+	margin: 11px auto;
+	font-size: 20px;
+	padding-left: 15px;
+	color: #4a58d9;
+}
+
+/* || BUTTON STYLING */
+
+#buttons {
+	width: 40%;
+	margin: 10px auto;
+}
+
+.button {
+	background: #f2f2f2;
+	height: 40px;
+	width: 130px;
+	font-size: 14px;
+	font-family: Arial;
+	color: #5f6368;
+	border-radius: 5px;
+	border: none;
+	margin: 5px;
+}
+
+.left {
+	background-color: #ff5c5c;
+	color: #0a046e;
+}
+
+.right {
+	background-color: #5cadff;
+	color: #0a046e;
+}
+
+/* || BOTTOM NAVBAR */
+
+.bottomnavbar {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	bottom: 0;
+	position: fixed;	/* || FIXES NAVBAR TO BOTTOM */
+	height: 6%;
+	background: #fff9f0;
+}
+
+.bottomnavlink {
+	text-decoration: none;
+	float: left;
+	font-family: Arial;
+	font-size: 13px;
+	margin: 15px 13px;
+	color: #4a58d9;
+}
+
+.bottomright {
+	float: right;
+}
+
+.coldpress {
+	margin-left: 30px;
+}
+
+.shabby {
+	margin-right: 30px;
+}
